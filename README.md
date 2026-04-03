@@ -62,23 +62,18 @@ The dataset contains **768 rows** and **7 columns**.
 
  Unemployment-Analysis-with-Python/
  
-│
 
 ├── Unemployment_Analysis_with_python.ipynb   # Main analysis notebook
 
 ├── Unemployment_in_India.csv                 # Dataset
 
 ├── README.md                                 # Project documentation
-
-│
-
-└── results/
-
-    └── figures/                              # All saved visualizations
-    
+      
         ├── Unemployment Rate Trajectory: pre vs post COVID-19.png
         
         ├── Distribution of Unemployment Rate.png
+
+        ├── Seasonal decomposition of estimated unemployment rate.png
         
         ├── Top 10 Regions Hardest Hit by Unemployment(COVID Period).png
         
@@ -88,9 +83,11 @@ The dataset contains **768 rows** and **7 columns**.
         
         ├── Unemployment During COVID Period.png
         
-        ├── Correlation Matrix.png
+        ├── Distribution of residuals.png
+
+        ├── Unemployment rate actual values vs rolling mean.png
         
-        └── Distribution of residuals.png
+        └── Correlation Matrix.png
         
         
 🔍 Methodology
