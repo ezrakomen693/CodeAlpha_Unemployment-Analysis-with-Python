@@ -1,10 +1,10 @@
-📊 Unemployment Analysis with Python
+Unemployment Analysis with Python
 
 
 A data-driven analysis of unemployment trends in India, investigating the impact of COVID-19, regional disparities, and temporal patterns using Python.
 
 
-🎯 Objectives
+Objectives
 
 Quantify the impact of COVID-19 on unemployment rates across regions in India.
 
@@ -17,7 +17,7 @@ Forecast short-term unemployment trends using time series modelling.
 Present insights that could inform economic and social policy decisions.
 
 
-🔬 Research Questions
+ Research Questions
 
 What variables significantly affect unemployment rates?
 
@@ -26,7 +26,7 @@ Are there temporal or demographic patterns in the data?
 Can we predict unemployment levels using statistical models?
 
 
-🗂️ Dataset
+Dataset
 
 
 ### Dataset Description: Unemployment_in_India.csv
@@ -43,7 +43,7 @@ The dataset contains **768 rows** and **7 columns**.
 | **Estimated Labour Participation (%)** | Workforce participation metric |
 
 
-🛠️ Tools & Libraries
+Tools & Libraries
 
 
 | Library | Purpose |
@@ -57,7 +57,7 @@ The dataset contains **768 rows** and **7 columns**.
 
 
 
-📁 Project Structure
+Project Structure
 
 
  Unemployment-Analysis-with-Python/
@@ -90,7 +90,7 @@ The dataset contains **768 rows** and **7 columns**.
         └── Correlation Matrix.png
         
         
-🔍 Methodology
+ Methodology
 
 1. Data Cleaning
 Standardized column names and string values
@@ -134,7 +134,7 @@ Rolling mean (3-month window)
 ARIMA(1,1,1) forecasting — 12-step ahead forecast
 
 
-📈 Key Findings
+Key Findings
 
 COVID-19 significantly increased unemployment — T-statistic: 9.975, p-value << 0.05. The difference between COVID and non-COVID periods is statistically significant.
 
@@ -149,7 +149,7 @@ Seasonal patterns detected — Decomposition reveals recurring monthly fluctuati
 ARIMA forecast suggests unemployment rates stabilizing at approximately 12.26% in the short term.
 
 
-▶️ How to Run
+How to Run
 
 Clone the repository:
 
@@ -166,7 +166,7 @@ Launch the notebook:
      
 Make sure Unemployment_in_India.csv is in the same directory as the notebook.
 
-👤 Author
+Author
 
 * GitHub: [@ezrakomen693](https://github.com/ezrakomen693)
 
